@@ -22,6 +22,7 @@ function App() {
       .catch((err) => console.log("Error", err));
 
     if (token) {
+      message.success("Token" + " " + token);
     } else {
       message.error("User not found");
     }
