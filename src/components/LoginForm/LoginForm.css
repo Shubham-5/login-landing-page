@@ -1,0 +1,26 @@
+.col-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-form {
+    max-width: 360px !important;
+}
+
+.ant-form-item {
+    margin-bottom: 7px !important;
+}
+
+.login-form-button {
+    width: 100%;
+    color: white !important;
+    background-color: #023047 !important;
+}
+
+@media (max-width: 560px) {
+    .col-form {
+        height: 90vh;
+    }
+}
